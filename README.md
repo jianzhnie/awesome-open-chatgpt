@@ -1,4 +1,4 @@
-# awesome-totally-open-chatgpt
+# Awesome-Open-ChatGPT
 
 ChatGPT is GPT-3.5 with RLHF (Reinforcement Learning with Human Feedback) for chat system.
 
