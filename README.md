@@ -74,6 +74,8 @@ Stars: ⭐⭐⭐⭐⭐
 
 ## [nebuly-ai/nebullvm](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
 
+由于 LLaMA 大模型系列没有使用 RLHF 方法，因此初创公司 Nebuly AI 开源了 RLHF 版 LLaMA（ChatLLaMA）的训练方法。它的训练过程类似 ChatGPT，该项目允许基于预训练的 LLaMA 模型构建 ChatGPT 形式的服务。与 ChatGPT 相比，LLaMA 架构更小，但训练过程和单 GPU 推理速度更快，成本更低；该库还支持所有的 LLaMA 模型架构（7B、13B、33B、65B），因此用户可以根据训练时间和推理性能偏好对模型进行微调。
+
 ChatLLAMA is a chatbot powered by LLaMA, a large language model finetuned with RLHF.
 
 Tags: Full
