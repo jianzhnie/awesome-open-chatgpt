@@ -31,6 +31,8 @@ Other revelant lists:
   - [KoboldAI/KoboldAI-Client](#koboldaikoboldai-client)
   - [LAION-AI/Open-Assistant](#laion-aiopen-assistant)
   - [tatsu-lab/stanford\_alpaca](#tatsu-labstanford_alpaca)
+  - [lm-sys/FastChat](#lm-sysfastchat)
+  - [Lightning-AI/lit-llama](#lightning-ailit-llama)
     - [Other LLaMA-derived projects:](#other-llama-derived-projects)
   - [BlinkDL/ChatRWKV](#blinkdlchatrwkv)
   - [THUDM/ChatGLM-6B](#thudmchatglm-6b)
@@ -124,6 +126,14 @@ This is the repo for the Stanford Alpaca project, which aims to build and share 
 
 Tags: Complicated
 Stars: ⭐⭐⭐
+
+## [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
+An open platform for training, serving, and evaluating large language model based chatbots.
+
+
+## [Lightning-AI/lit-llama](https://github.com/Lightning-AI/lit-llama) 
+
+Implementation of the LLaMA language model based on nanoGPT.
 
 
 
