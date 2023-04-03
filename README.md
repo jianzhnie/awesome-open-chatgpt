@@ -20,24 +20,27 @@ Other revelant lists:
 - [yaodongC/awesome-instruction-dataset](https://github.com/yaodongC/awesome-instruction-dataset): A collection of open-source dataset to train instruction-following LLMs (ChatGPT,LLaMA,Alpaca)
 
 # Table of Contents
-1. [The template](#The-template)
-2. [The list](#The-list)
-   - [lucidrains/PaLM-rlhf-pytorch](#lucidrainsPaLM-rlhf-pytorch)
-   - [togethercomputer/OpenChatKit](#togethercomputerOpenChatKit)
-   - [oobabooga/text-generation-webui](#oobaboogatext-generation-webui)
-   - [KoboldAI/KoboldAI-Client](#KoboldAIKoboldAI-Client)
-   - [LAION-AI/Open-Assistant](#LAION-AIOpen-Assistant)
-   - [tatsu-lab/stanford_alpaca](#tatsu-labstanford_alpaca)
-     - [Other LLaMA-derived projects](#other-llama-derived-projects)
-   - [BlinkDL/ChatRWKV](#BlinkDLChatRWKV)
-   - [THUDM/ChatGLM-6B](#THUDMChatGLM-6B)
-   - [bigscience-workshop/xmtf](#bigscience-workshopxmtf)
-   - [carperai/trlx](#carperaitrlx)
-   - [databrickslabs/dolly](#databrickslabsdolly)
-   - [LianjiaTech/BELLE](#lianjiatechbelle)
-   - [ethanyanjiali/minChatGPT](#ethanyanjialiminchatgpt)
-   - [cerebras/Cerebras-GPT](#cerebrascerebras-gpt)
-   - [TavernAI/TavernAI](#tavernaitavernai)
+- [Table of Contents](#table-of-contents)
+- [The template](#the-template)
+- [The list](#the-list)
+  - [lucidrains/PaLM-rlhf-pytorch](#lucidrainspalm-rlhf-pytorch)
+  - [ColossalAI/Chat](#colossalaichat)
+  - [nebuly-ai/nebullvm](#nebuly-ainebullvm)
+  - [togethercomputer/OpenChatKit](#togethercomputeropenchatkit)
+  - [oobabooga/text-generation-webui](#oobaboogatext-generation-webui)
+  - [KoboldAI/KoboldAI-Client](#koboldaikoboldai-client)
+  - [LAION-AI/Open-Assistant](#laion-aiopen-assistant)
+  - [tatsu-lab/stanford\_alpaca](#tatsu-labstanford_alpaca)
+    - [Other LLaMA-derived projects:](#other-llama-derived-projects)
+  - [BlinkDL/ChatRWKV](#blinkdlchatrwkv)
+  - [THUDM/ChatGLM-6B](#thudmchatglm-6b)
+  - [bigscience-workshop/xmtf](#bigscience-workshopxmtf)
+  - [carperai/trlx](#carperaitrlx)
+  - [databrickslabs/dolly](#databrickslabsdolly)
+  - [LianjiaTech/BELLE](#lianjiatechbelle)
+  - [ethanyanjiali/minChatGPT](#ethanyanjialiminchatgpt)
+  - [cerebras/Cerebras-GPT](#cerebrascerebras-gpt)
+  - [TavernAI/TavernAI](#tavernaitavernai)
 
 # The template
 
@@ -58,6 +61,25 @@ Tags: Bare/Standard/Full/Complicated
 Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
 
 Tags: Bare
+stars: ⭐⭐⭐
+
+
+## [ColossalAI/Chat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)
+
+ColossalChat implement LLM with RLHF, powered by the Colossal-AI project.
+
+Tags: full
+Stars: ⭐⭐⭐⭐⭐
+
+
+## [nebuly-ai/nebullvm](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
+
+ChatLLAMA is a chatbot powered by LLaMA, a large language model finetuned with RLHF.
+
+Tags: Full
+Stars: ⭐⭐⭐⭐⭐
+
+
 
 ## [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
 
@@ -67,6 +89,8 @@ Related links:
 - [spaces/togethercomputer/OpenChatKit](https://huggingface.co/spaces/togethercomputer/OpenChatKit)
 
 Tags: Full
+Stars: ⭐⭐⭐⭐⭐
+
 
 ## [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 
@@ -89,12 +113,17 @@ Related links:
 - [r/OpenAssistant/](https://www.reddit.com/r/OpenAssistant/)
 
 Tags: Full
+Stars: ⭐⭐⭐⭐⭐
+
 
 ## [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 This is the repo for the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model.
 
 Tags: Complicated
+Stars: ⭐⭐⭐
+
+
 
 ### Other LLaMA-derived projects:
 
