@@ -27,6 +27,7 @@ Other revelant lists:
 - [The list](#the-list)
   - [lucidrains/PaLM-rlhf-pytorch](#lucidrainspalm-rlhf-pytorch)
   - [ColossalAI/Chat](#colossalaichat)
+  - [nomic-ai/gpt4all](#nomic-aigpt4all)
   - [nebuly-ai/nebullvm](#nebuly-ainebullvm)
   - [databrickslabs/dolly](#databrickslabsdolly)
   - [togethercomputer/OpenChatKit](#togethercomputeropenchatkit)
@@ -105,6 +106,11 @@ ColossalChat implement LLM with RLHF, powered by the Colossal-AI project.
 Tags: full
 Stars: ⭐⭐⭐⭐⭐
 
+## [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
+gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
+
+Tags: full
+Stars: ⭐⭐⭐⭐⭐
 
 ## [nebuly-ai/nebullvm](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
 
