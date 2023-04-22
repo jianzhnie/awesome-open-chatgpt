@@ -101,16 +101,22 @@ Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of th
 Tags: Bare
 stars: ⭐⭐⭐
 
+## [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 
+
+OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
+
+Related links:
+
+- [huggingface.co/OpenAssistant](https://huggingface.co/OpenAssistant)
+- [r/OpenAssistant/](https://www.reddit.com/r/OpenAssistant/)
+
+Tags: Full
+Stars: ⭐⭐⭐⭐⭐
+
 
 ## [ColossalAI/Chat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)
 
 ColossalChat implement LLM with RLHF, powered by the Colossal-AI project.
-
-Tags: full
-Stars: ⭐⭐⭐⭐⭐
-
-## [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
-gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
 
 Tags: full
 Stars: ⭐⭐⭐⭐⭐
@@ -124,25 +130,94 @@ ChatLLAMA is a chatbot powered by LLaMA, a large language model finetuned with R
 Tags: Full
 Stars: ⭐⭐⭐⭐⭐
 
+## [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM)
 
-## [databrickslabs/dolly](https://github.com/databrickslabs/dolly)
+This repository contains Stability AI's ongoing development of the StableLM series of language models and will be continuously updated with new checkpoints.
 
-Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform.
+Related links:
+
+- [huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)
 
 Tags: Full
-Stars: ⭐⭐⭐⭐
-
 
 ## [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
 
 OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications. 
 
 Related links:
+
 - [spaces/togethercomputer/OpenChatKit](https://huggingface.co/spaces/togethercomputer/OpenChatKit)
 
 Tags: Full
 Stars: ⭐⭐⭐⭐⭐
 
+## [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+
+This is the repo for the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model.
+
+Tags: Complicated
+Stars: ⭐⭐⭐
+
+## [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
+
+ChatGLM-6B is an open bilingual language model based on General Language Model (GLM) framework, with 6.2 billion parameters. With the quantization technique, users can deploy locally on consumer-grade graphics cards (only 6GB of GPU memory is required at the INT4 quantization level).
+
+Related links:
+
+- Alternative Web UI: [Akegarasu/ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
+- Slim version (remove 20K image tokens to reduce memory usage): [silver/chatglm-6b-slim](https://huggingface.co/silver/chatglm-6b-slim)
+- Fintune ChatGLM-6b using low-rank adaptation (LoRA): [lich99/ChatGLM-finetune-LoRA](https://github.com/lich99/ChatGLM-finetune-LoRA)
+- Deploying ChatGLM on Modelz: [tensorchord/modelz-ChatGLM](https://github.com/tensorchord/modelz-ChatGLM)
+- Docker image with built-on playground UI and streaming API compatible with OpenAI, using [Basaran](https://github.com/hyperonym/basaran): [peakji92/chatglm:6b](https://hub.docker.com/r/peakji92/chatglm/tags)
+
+Tags: Full
+
+## [databrickslabs/dolly](https://github.com/databrickslabs/dolly)
+
+Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform. Script to fine tune [GPT-J 6B](https://huggingface.co/EleutherAI/gpt-j-6B) model on the [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca) dataset. Insightful if you want to fine tune LLMs.
+
+Related links:
+
+- [6b model card](https://huggingface.co/databricks/dolly-v1-6b)
+
+Tags: Standard
+
+Stars: ⭐⭐⭐⭐
+
+## [h2oai/h2ogpt](https://github.com/h2oai/h2ogpt)
+
+h2oGPT - The world's best open source GPT
+
+- Open-source repository with fully permissive, commercially usable code, data and models
+- Code for preparing large open-source datasets as instruction datasets for fine-tuning of large language models (LLMs), including prompt engineering
+- Code for fine-tuning large language models (currently up to 20B parameters) on commodity hardware and enterprise GPU servers (single or multi node)
+- Code to run a chatbot on a GPU server, with shareable end-point with Python client API
+- Code to evaluate and compare the performance of fine-tuned LLMs
+
+Related links:
+
+- [h2oGPT 20B](https://gpt.h2o.ai/)
+- [🤗 h2oGPT 12B #1](https://huggingface.co/spaces/h2oai/h2ogpt-chatbot)
+- [🤗 h2oGPT 12B #2](https://huggingface.co/spaces/h2oai/h2ogpt-chatbot2)
+
+Tags: Full
+
+## [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan)
+
+ChatYuan: Large Language Model for Dialogue in Chinese and English (The repos are mostly in Chinese)
+
+Related links:
+
+- [A bit translated readme to English](https://github.com/nichtdax/awesome-totally-open-chatgpt/issues/18#issuecomment-1492826662)
+
+Tags: Full
+
+## [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
+
+gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
+
+Tags: full
+Stars: ⭐⭐⭐⭐⭐
 
 ## [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 
@@ -155,25 +230,6 @@ Tags: Full
 This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author’s Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Dungeon adventures. You can also turn on Adventure mode and play the game like AI Dungeon Unleashed.
 
 Tags: Full
-
-## [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 
-
-OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
-
-Related links:
-- [huggingface.co/OpenAssistant](https://huggingface.co/OpenAssistant)
-- [r/OpenAssistant/](https://www.reddit.com/r/OpenAssistant/)
-
-Tags: Full
-Stars: ⭐⭐⭐⭐⭐
-
-
-## [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
-
-This is the repo for the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model.
-
-Tags: Complicated
-Stars: ⭐⭐⭐
 
 ## [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
 An open platform for training, serving, and evaluating large language model based chatbots.
@@ -198,20 +254,6 @@ ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open
 
 Tags: Full
 
-## [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
-
-ChatGLM-6B is an open bilingual language model based on General Language Model (GLM) framework, with 6.2 billion parameters. With the quantization technique, users can deploy locally on consumer-grade graphics cards (only 6GB of GPU memory is required at the INT4 quantization level).
-
-Related links:
-
-- Alternative Web UI: [Akegarasu/ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
-- Slim version (remove 20K image tokens to reduce memory usage): [silver/chatglm-6b-slim](https://huggingface.co/silver/chatglm-6b-slim)
-- Fintune ChatGLM-6b using low-rank adaptation (LoRA): [lich99/ChatGLM-finetune-LoRA](https://github.com/lich99/ChatGLM-finetune-LoRA)
-- Deploying ChatGLM on Modelz: [tensorchord/modelz-ChatGLM](https://github.com/tensorchord/modelz-ChatGLM)
-- Docker image with built-on playground UI and streaming API compatible with OpenAI, using [Basaran](https://github.com/hyperonym/basaran): [peakji92/chatglm:6b](https://hub.docker.com/r/peakji92/chatglm/tags)
-
-Tags: Full
-
 ## [bigscience-workshop/xmtf](https://github.com/bigscience-workshop/xmtf)
 
 This repository provides an overview of all components used for the creation of BLOOMZ & mT0 and xP3 introduced in the paper [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786).
@@ -227,15 +269,6 @@ Tags: Standard
  A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF), supporting online RL up to 20b params and offline RL to larger models. Basically what you would use to finetune GPT into ChatGPT. 
 
 Tags: Bare
-
-## [databrickslabs/dolly](https://github.com/databrickslabs/dolly)
-
-Script to fine tune [GPT-J 6B](https://huggingface.co/EleutherAI/gpt-j-6B) model on the [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca) dataset. Insightful if you want to fine tune LLMs.
-
-Related links:
-- [6b model card](https://huggingface.co/databricks/dolly-v1-6b)
-
-Tags: Standard
 
 ## [LianjiaTech/BELLE](https://github.com/LianjiaTech/BELLE)
 
