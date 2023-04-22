@@ -21,8 +21,7 @@ Other revelant lists:
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Summary](#summary)
-  - [open source ChatGPT list](#open-source-chatgpt-list)
+- [Open source ChatGPT list](#open-source-chatgpt-list)
 - [The template](#the-template)
 - [The list](#the-list)
   - [lucidrains/PaLM-rlhf-pytorch](#lucidrainspalm-rlhf-pytorch)
@@ -30,6 +29,7 @@ Other revelant lists:
   - [ColossalAI/Chat](#colossalaichat)
   - [nebuly-ai/nebullvm](#nebuly-ainebullvm)
   - [Stability-AI/StableLM](#stability-aistablelm)
+  - [DeepSpeed-Chat](#deepspeed-chat)
   - [togethercomputer/OpenChatKit](#togethercomputeropenchatkit)
   - [tatsu-lab/stanford\_alpaca](#tatsu-labstanford_alpaca)
   - [THUDM/ChatGLM-6B](#thudmchatglm-6b)
@@ -50,7 +50,7 @@ Other revelant lists:
   - [ethanyanjiali/minChatGPT](#ethanyanjialiminchatgpt)
   - [cerebras/Cerebras-GPT](#cerebrascerebras-gpt)
   - [TavernAI/TavernAI](#tavernaitavernai)
-  - [Other LLaMA-derived projects:](#other-llama-derived-projects)
+- [Other LLaMA-derived projects:](#other-llama-derived-projects)
 
 # Open source ChatGPT list
 
