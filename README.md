@@ -167,6 +167,22 @@ This is the repo for the Stanford Alpaca project, which aims to build and share 
 Tags: Complicated
 Stars: ⭐⭐⭐
 
+**Resources:** 
+
+- Blog: [Stanford CRFM](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+- GitHub: [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+- Demo: [Alpaca-LoRA](https://huggingface.co/spaces/tloen/alpaca-lora) (The official demo was drop and this is a recreation of Alpaca model)
+
+## [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
+
+An open platform for training, serving, and evaluating large language model based chatbots. Vicuna is an open-source chatbot with 13B parameters trained by fine-tuning LLaMA on user conversations data collected from ShareGPT.com, a community site users can share their ChatGPT conversations. Based on evaluations done, the model has a more than 90% quality rate comparable to OpenAI's ChatGPT and Google's Bard, which makes this model one of the top opensourced models when looking at feature parity to ChatGPT. 
+
+**Resources:** 
+
+- Blog post: [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://vicuna.lmsys.org/)
+- GitHub: [lm-sys/FastChat](https://github.com/lm-sys/FastChat#fine-tuning)
+- Demo: [FastChat (lmsys.org)](https://chat.lmsys.org/)
+
 ## [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
 
 ChatGLM-6B is an open bilingual language model based on General Language Model (GLM) framework, with 6.2 billion parameters. With the quantization technique, users can deploy locally on consumer-grade graphics cards (only 6GB of GPU memory is required at the INT4 quantization level).
@@ -223,7 +239,7 @@ Tags: Full
 
 ## [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
 
-gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
+[GPT4all](https://github.com/nomic-ai/gpt4all) is a community-driven project trained on a massive curated collection of written texts of assistant interactions, including code, stories, depictions, and multi-turn dialogue. The team has provided datasets, model weights, data curation processes, and training code to promote the open-source model. There is also a release of a quantized 4-bit version of the model that is able to run on your laptop as the memory and computation power required is less. A Python client is also available that you can use to interact with the model.
 
 Tags: full
 Stars: ⭐⭐⭐⭐⭐
@@ -239,9 +255,6 @@ Tags: Full
 This is a browser-based front-end for AI-assisted writing with multiple local & remote AI models. It offers the standard array of tools, including Memory, Author’s Note, World Info, Save & Load, adjustable AI settings, formatting options, and the ability to import existing AI Dungeon adventures. You can also turn on Adventure mode and play the game like AI Dungeon Unleashed.
 
 Tags: Full
-
-## [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
-An open platform for training, serving, and evaluating large language model based chatbots.
 
 
 ## [young-geng/EasyLM](https://github.com/young-geng/EasyLM)
@@ -259,7 +272,7 @@ Implementation of the LLaMA language model based on nanoGPT.
 
 ## [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
 
-ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source.
+[ChatRWKV](https://github.com/BlinkDL/ChatRWKV) is an open-source chatbot powered by RWKV, an RNN with Transformer-level LLM performance language model. Model results are comparable with those of ChatGPT. The model uses RNNs. Fine-tuning of the model was done using Stanford Alpaca and other datasets.
 
 Tags: Full
 
