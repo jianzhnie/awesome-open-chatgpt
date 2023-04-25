@@ -32,21 +32,21 @@ Other revelant lists:
   - [DeepSpeed-Chat](#deepspeed-chat)
   - [togethercomputer/OpenChatKit](#togethercomputeropenchatkit)
   - [tatsu-lab/stanford\_alpaca](#tatsu-labstanford_alpaca)
+  - [lm-sys/FastChat](#lm-sysfastchat)
   - [THUDM/ChatGLM-6B](#thudmchatglm-6b)
+  - [Baize\[白泽\]](#baize白泽)
   - [databrickslabs/dolly](#databrickslabsdolly)
   - [h2oai/h2ogpt](#h2oaih2ogpt)
   - [clue-ai/ChatYuan](#clue-aichatyuan)
   - [nomic-ai/gpt4all](#nomic-aigpt4all)
   - [oobabooga/text-generation-webui](#oobaboogatext-generation-webui)
   - [KoboldAI/KoboldAI-Client](#koboldaikoboldai-client)
-  - [lm-sys/FastChat](#lm-sysfastchat)
   - [young-geng/EasyLM](#young-gengeasylm)
   - [Lightning-AI/lit-llama](#lightning-ailit-llama)
-  - [LianjiaTech/BELLE](#lianjiatechbelle)
   - [BlinkDL/ChatRWKV](#blinkdlchatrwkv)
   - [bigscience-workshop/xmtf](#bigscience-workshopxmtf)
   - [carperai/trlx](#carperaitrlx)
-  - [LianjiaTech/BELLE](#lianjiatechbelle-1)
+  - [LianjiaTech/BELLE](#lianjiatechbelle)
   - [ethanyanjiali/minChatGPT](#ethanyanjialiminchatgpt)
   - [cerebras/Cerebras-GPT](#cerebrascerebras-gpt)
   - [TavernAI/TavernAI](#tavernaitavernai)
@@ -101,14 +101,18 @@ Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of th
 Tags: Bare
 stars: ⭐⭐⭐
 
-## [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 
+## [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
 
-OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
+Open Assistant is a truly open-source project, which means giving everyone access to top chat-based large language models. It aims to create a revolution in innovation in language by enabling people to interact with third-party systems, retrieve information dynamically, and create new applications using language. 
 
 Related links:
 
 - [huggingface.co/OpenAssistant](https://huggingface.co/OpenAssistant)
-- [r/OpenAssistant/](https://www.reddit.com/r/OpenAssistant/)
+
+- Blog Post: [Open Assistant First Models are here!](https://projects.laion.ai/Open-Assistant/blog/2023/04/06/open-assistant-first-models-are-here)
+- GitHub: [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
+- Demo: [open-assistant.io](https://open-assistant.io/chat)
+- Model card: [OpenAssistant/oasst-sft-1-pythia-12b](https://huggingface.co/OpenAssistant/oasst-sft-1-pythia-12b)
 
 Tags: Full
 Stars: ⭐⭐⭐⭐⭐
@@ -160,6 +164,11 @@ Related links:
 Tags: Full
 Stars: ⭐⭐⭐⭐⭐
 
+- Blog Post: [Announcing OpenChatKit — TOGETHER](https://www.together.xyz/blog/openchatkit)
+- GitHub: [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
+- Demo: [OpenChatKit ](https://huggingface.co/spaces/togethercomputer/OpenChatKit)
+- Model card: [togethercomputer/GPT-NeoXT-Chat-Base-20B](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)
+
 ## [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 This is the repo for the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model.
@@ -197,6 +206,17 @@ Related links:
 
 Tags: Full
 
+## [Baize](https://github.com/project-baize/baize-chatbot)[白泽]
+
+Baize exhibits impressive performance in multi-turn dialogues thanks to its guardrails that help mitigate potential risks. It has achieved this through a high-quality multi-turn chat corpus, which was developed by leveraging ChatGPT to facilitate conversations with itself.
+
+Baize code source, model, and dataset are released under a non-commercial (research purposes) license. 
+
+- Research Paper: [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data](https://arxiv.org/abs/2304.01196)
+- GitHub: [project-baize/baize-chatbot](https://github.com/project-baize/baize-chatbot)
+- Demo: [Baize 7B](https://huggingface.co/spaces/project-baize/Baize-7B)
+- Model card: [project-baize/baize-lora-7B](https://huggingface.co/project-baize/baize-lora-7B)
+
 ## [databrickslabs/dolly](https://github.com/databrickslabs/dolly)
 
 Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform. Script to fine tune [GPT-J 6B](https://huggingface.co/EleutherAI/gpt-j-6B) model on the [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca) dataset. Insightful if you want to fine tune LLMs.
@@ -208,6 +228,10 @@ Related links:
 Tags: Standard
 
 Stars: ⭐⭐⭐⭐
+
+- Blog Post: [Hello Dolly: Democratizing the magic of ChatGPT with open models](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)
+- GitHub: [databrickslabs/dolly](https://github.com/databrickslabs/dolly)
+- Model card: [databricks/dolly-v1-6b](https://huggingface.co/databricks/dolly-v1-6b)
 
 ## [h2oai/h2ogpt](https://github.com/h2oai/h2ogpt)
 
@@ -244,6 +268,11 @@ Tags: Full
 Tags: full
 Stars: ⭐⭐⭐⭐⭐
 
+- Technical Report: [GPT4All](https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf)
+- GitHub: [nomic-ai/gpt4al](https://github.com/nomic-ai/gpt4all)
+- Chatbot UI: [nomic-ai/gpt4all-ui](https://github.com/nomic-ai/gpt4all-ui)
+- Model card: [nomic-ai/gpt4all-lora](https://huggingface.co/nomic-ai/gpt4all-lora)
+
 ## [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 
 A gradio web UI for running Large Language Models like GPT-J 6B, OPT, GALACTICA, LLaMA, and Pygmalion.
@@ -260,21 +289,24 @@ Tags: Full
 ## [young-geng/EasyLM](https://github.com/young-geng/EasyLM)
 Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.
 
+- Blog Post: [Koala: A Dialogue Model for Academic Research](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+- GitHub: [young-geng/EasyLM](https://github.com/young-geng/EasyLM#koala)
+- Demo: [FastChat/Koala](https://chat.lmsys.org/?model=koala-13b)
+
 
 ## [Lightning-AI/lit-llama](https://github.com/Lightning-AI/lit-llama) 
 
 Implementation of the LLaMA language model based on nanoGPT.
-
-
-## [LianjiaTech/BELLE](https://github.com/LianjiaTech/BELLE)
-
-本项目目标是促进中文对话大模型开源社区的发展，愿景做能帮到每一个人的LLM Engine。现阶段本项目基于一些开源预训练大语言模型（如BLOOM），针对中文做了优化，模型调优仅使用由ChatGPT生产的数据（不包含任何其他数据）。
 
 ## [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
 
 [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) is an open-source chatbot powered by RWKV, an RNN with Transformer-level LLM performance language model. Model results are comparable with those of ChatGPT. The model uses RNNs. Fine-tuning of the model was done using Stanford Alpaca and other datasets.
 
 Tags: Full
+
+- GitHub: [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
+- Demo: [Raven RWKV 7B](https://huggingface.co/spaces/BlinkDL/Raven-RWKV-7B)
+- Model card: [BlinkDL/rwkv-4-raven](https://huggingface.co/BlinkDL/rwkv-4-raven)
 
 ## [bigscience-workshop/xmtf](https://github.com/bigscience-workshop/xmtf)
 
