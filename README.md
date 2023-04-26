@@ -34,7 +34,7 @@ Other revelant lists:
   - [tatsu-lab/stanford\_alpaca](#tatsu-labstanford_alpaca)
   - [lm-sys/FastChat](#lm-sysfastchat)
   - [THUDM/ChatGLM-6B](#thudmchatglm-6b)
-  - [Baize\[白泽\]](#baize白泽)
+  - [Baize 白泽](#baize-白泽)
   - [databrickslabs/dolly](#databrickslabsdolly)
   - [h2oai/h2ogpt](#h2oaih2ogpt)
   - [clue-ai/ChatYuan](#clue-aichatyuan)
@@ -206,7 +206,7 @@ Related links:
 
 Tags: Full
 
-## [Baize](https://github.com/project-baize/baize-chatbot)[白泽]
+## [Baize 白泽](https://github.com/project-baize/baize-chatbot)
 
 Baize exhibits impressive performance in multi-turn dialogues thanks to its guardrails that help mitigate potential risks. It has achieved this through a high-quality multi-turn chat corpus, which was developed by leveraging ChatGPT to facilitate conversations with itself.
 
