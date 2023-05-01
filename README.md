@@ -17,7 +17,7 @@ Tags:
 -   Complicated: semi open source, not really open source, based on closed model, etc...
 
 Other revelant lists:
-- [yaodongC/awesome-instruction-dataset](https://github.com/yaodongC/awesome-instruction-dataset): A collection of open-source dataset to train instruction-following LLMs (ChatGPT,LLaMA,Alpaca)
+- [jianzhnie/awesome-prompt-datasets](https://github.com/jianzhnie/awesome-prompt-datasets): A collection of open-source dataset to train instruction-following LLMs (ChatGPT,LLaMA,Alpaca)
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
