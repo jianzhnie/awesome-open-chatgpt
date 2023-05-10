@@ -251,6 +251,34 @@ Related links:
 
 Tags: Full
 
+
+
+[Panda: 海外中文开源大语言模型](https://github.com/dandelionsllm/pandallm)
+
+Panda: 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
+
+### 数据
+
+模型数据现阶段均采用开源的公开中英文语料数据集：
+
+#### 中文 instruction-tuning
+
+- [维基百科(wiki2019zh)，100万个结构良好的中文词条](https://github.com/brightmart/nlp_chinese_corpus)
+- [新闻语料(news2016zh)，250万篇新闻，含关键词、描述](https://github.com/brightmart/nlp_chinese_corpus)
+- [百科问答(baike2018qa)，150万个带问题类型的问答](https://github.com/brightmart/nlp_chinese_corpus)
+- [社区问答json版(webtext2019zh)，410万个高质量社区问答，适合训练超大模型](https://github.com/brightmart/nlp_chinese_corpus)
+- [翻译语料(translation2019zh)，520万个中英文句子对](https://github.com/brightmart/nlp_chinese_corpus)
+- [Chinese Open Instruction Generalist (COIG)](https://huggingface.co/datasets/BAAI/COIG)
+
+**Notes**
+
+1. 对于除维基百科和新闻语料外的其他语料，用 Conditional Generation 的方式优化，即 instruction 部分与输入部分不计算损失，只计算输出部分的损失。除 COIG 外的语料中的 instruction 为固定模板。
+2. 一开始我们将以上所有语料混合在一起进行训练，但发现最终的模型在 instruction following 方面的能力并不好，因此我们决定单独在 COIG 数据集上进行指令微调，并得到最终模型。推测原因可能是 COIG 在整体训练数据中的占比过小，可选的解决方案是对 COIG 加大采样的概率。
+
+#### 英文 instruction-tuning
+
+为了提升模型的基础能力，我们选择使用 FLAN Collection 进行训练。由于 FLAN collection 语料规模过于庞大，我们按比例抽取了 7M 的语料用于训练，且最终性能仍远落后于 FLAN-T5-3B，因此目前我们决定暂时停止该方向的训练，并思考其他可能的构建较小的同时具有较强基础能力的语言模型的方向。
+
 ## [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan)
 
 ChatYuan: Large Language Model for Dialogue in Chinese and English (The repos are mostly in Chinese)
